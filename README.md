@@ -16,6 +16,8 @@
 
 > **Note:** Please review the sub directories of this repository for the modules.
 
+![](screenshots/example_incident.png)
+
 ## Required Targets and Accounts keys
 - SecureX Access Token
 - SecureX Private Intel DB (uses SecureX Access Token)
