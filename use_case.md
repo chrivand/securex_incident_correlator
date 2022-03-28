@@ -10,7 +10,14 @@
 * This workflow can have multiple modules. The modules trigger this workflow, when a sighting is found for an IoC with a target.
 * Currently the Twitter and Generic module are ready. The RSS feed module is in development. If you have more ideas for modules, please open a GitHub issue or make a GitHub pull request.
 
+### Example module:
 ![](screenshots/generic_module.png)
+
+### Example SecureX incident:
+![](screenshots/example_incident.png)
+
+### Example Webex notifcation:
+![](screenshots/example_webex.png)
 
 ## Business Case
 This set of workflows allows to automate a part of the Threat Hunting process and correlate multiple events into a single incident.
