@@ -1,5 +1,5 @@
 ![License: CISCO](https://img.shields.io/badge/License-CISCO-blue.svg)
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/<REPO-HERE>)
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/chrivand/securex_incident_correlator)
 
 # SecureX Incident Correlator
 
