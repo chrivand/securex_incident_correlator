@@ -1,7 +1,7 @@
 ![License: CISCO](https://img.shields.io/badge/License-CISCO-blue.svg)
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/<REPO-HERE>)
 
-# SecureX Incident Correlator
+# Cisco SecureX Incident Correlator
 
 ## Features
 * Correlates sightings into a single incident per target identifier (e.g. hostname, mac address etc.).
