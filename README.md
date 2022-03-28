@@ -10,9 +10,11 @@
 * Keeps track of amount of sightings per incident. This number is reported via Webex Teams and also stored and updated in the incident description.
 * Possible to set different response actions based on number of sightings per incident.
 * This workflow can have multiple modules. The modules trigger this workflow, when a sighting is found for an IoC with a target.
-* Currently the Twitter and Generic module are ready. The RSS feed module is in development. If you have more ideas for modules, please open a GitHub issue or make a GitHub pull request.
+* Currently the Twitter and Generic module are ready. The RSS feed module is in development. If you have more ideas for modules, please open a GitHub issue or make a GitHub pull request. 
 
-> **Note:** Please test this properly before implementing in a production environment. This is a sample workflow!
+> **Note:** Please test this properly before implementing in a production environment. This is a sample workflow! 
+
+> **Note:** Please review the sub directories of this repository for the modules.
 
 ## Required Targets and Accounts keys
 - SecureX Access Token
