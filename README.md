@@ -38,6 +38,10 @@
 
 3. You will be prompted for some credentials and targets. Please follow the instructions to make sure there are no more orange errors in the workflow and you can click **VALIDATE** in the top right of the workflow edit pane.
 
+4. Feel free to add more response actions, based on the amount of sightings per incident:
+
+![](screenshots/response_actions.png)
+
 ## Author(s)
 
 * Christopher van der Made (Cisco)
