@@ -17,6 +17,8 @@
 
 > **Note:** This workflow is not finished and serves as generic example to use any tex input. This workflow still needs to be customized to your needs. More modules will be added.
 
+![](../screenshots/generic_module.png)
+
 ## Required Targets and Accounts keys
 - SecureX Access Token
 - SecureX Private Intel DB (uses SecureX Access Token)
@@ -36,7 +38,7 @@
 
 2. Click on **Browse** and copy paste the content of the [generic_module_workflow.json](https://raw.githubusercontent.com/chrivand/securex_incident_correlator/main/generic_module/generic_module_workflow.json) file inside of the text window and click **Import**. Select **Import as a new workflow (clone)** if you have a previous version of this workflow, and you do not want to overwrite it. Alternatively, you can also [import this from GitHub directly](https://ciscosecurity.github.io/sxo-05-security-workflows/importing).
 
-![](screenshots/copy-paste.png)
+![](../screenshots/copy-paste.png)
 
 3. You will be prompted for some credentials and targets. Please follow the instructions to make sure there are no more orange errors in the workflow and you can click **VALIDATE** in the top right of the workflow edit pane.
 

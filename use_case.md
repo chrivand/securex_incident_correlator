@@ -1,34 +1,32 @@
 # SecureX orchestration workflow repository
 
+## Features
 * SecureX orchestration provides a no-to-low code approach for building automated workflows. 
-* These workflows can interact with various types of resources and systems, whether they’re from Cisco or a third-party. 
-* This repository contains atomic actions and workflows that can be imported into SecureX orchestration as well as a variety of documentation.
+* This set of workflows correlates sightings into a single incident per target identifier (e.g. hostname, mac address etc.).
+* Creates a new incident if target identifier was not seen before (i.e. no incident was created) or if the incident was closed for that target identifier.
+* If the incident was closed for that target identifier, it will create a new incident and a relationship with the previous incident.
+* Keeps track of amount of sightings per incident. This number is reported via Webex Teams and also stored and updated in the incident description.
+* Possible to set different response actions based on number of sightings per incident.
+* This workflow can have multiple modules. The modules trigger this workflow, when a sighting is found for an IoC with a target.
+* Currently the Twitter and Generic module are ready. The RSS feed module is in development. If you have more ideas for modules, please open a GitHub issue or make a GitHub pull request.
 
-## Atomic Actions
-* Atomic actions are self-contained workflows that are similar to a function in traditional programming. 
-* They can consume input, perform various actions, and then return output. 
-* They’re designed to be portable, re-usable, and make building workflows more efficient.
-
-## Workflows
-* Workflows are the larger component of orchestration and are similar to a script in traditional programming. 
-* A workflow can be simple and only have a few actions or be complex and string together many different actions for different products.
+![](screenshots/generic_module.png)
 
 ## Business Case
+This set of workflows allows to automate a part of the Threat Hunting process and correlate multiple events into a single incident.
 
-Service-oriented orchestration provides the agility to model and act on IT services. These features make creating orchestration active and dynamic, and allow for:
+* Threat Hunting is all about gathering data from Local/Internal Monitoring and Global Intelligence.
+* Threat Hunting is a continuous process and a loop.
+* There are many tools, like SecureX, that can help with this.
+* The SecureX API can automate (parts of) this process and help free up precious time for SOC analysts.
 
-* Defining new, higher-level services in the system, and deploy new services quickly.
-* In real-time, after these new types of services have been defined, creating real-time instances of those new services.
-* Using events to watch for patterns in these services, enabling policy-driven automation.
-* Service-oriented Orchestration combines several industry trends to synthesize a fresh approach to orchestration:
-
-Please continue your reading in this [white paper](https://www.cisco.com/c/en/us/products/collateral/security/white-paper-c11-744498.html).
+Please continue your reading in this [SecureX white paper](https://www.cisco.com/c/en/us/products/collateral/security/white-paper-c11-744498.html).
 
 ## Related Sandbox
-Currently there is no DevNet sandbox yet, however you can find all options to try out SecureX orchestration [here](https://developer.cisco.com/learning/lab/Cisco-SecureX-101-lab/step/1)!
+Currently there is no DevNet sandbox yet, however you can find all options to try out these [SecureX orchestration learning labs](https://developer.cisco.com/learning/lab/Cisco-SecureX-101-lab/step/1)!
 
 ## List of SecureX Learning Labs
-* Please try out [this SecureX DevNet learning lab](https://developer.cisco.com/learning/modules/SecureX-orchestration) to try this yourself. 
+* Please try out this [SecureX DevNet learning lab](https://developer.cisco.com/learning/modules/SecureX-orchestration) to try this yourself. 
 * Please also check out the [SecureX microsite](https://developer.cisco.com/securex/) on DevNet!
 
 ## Solutions on Ecosystem Exchange
