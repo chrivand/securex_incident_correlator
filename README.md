@@ -16,7 +16,11 @@
 
 > **Note:** Please review the sub directories of this repository for the modules.
 
+### Example SecureX incident:
 ![](screenshots/example_incident.png)
+
+### Example Webex notifcation:
+![](screenshots/example_webex.png)
 
 ## Required Targets and Accounts keys
 - SecureX Access Token
