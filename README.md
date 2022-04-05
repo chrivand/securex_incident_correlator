@@ -7,7 +7,8 @@
 * Correlates sightings into a single incident per target identifier (e.g. hostname, mac address etc.).
 * Creates a new incident if target identifier was not seen before (i.e. no incident was created) or if the incident was closed for that target identifier.
 * If the incident was closed for that target identifier, it will create a new incident and a relationship with the previous incident.
-* Keeps track of amount of sightings per incident. This number is reported via Webex Teams and also stored and updated in the incident description.
+* Keeps track of amount of sightings per incident. This number is reported via Webex Teams and also stored and updated in the incident description. 
+* Also the confidence of the incident is raised, as more sightings are added to an incident.
 * Possible to set different response actions based on number of sightings per incident.
 * This workflow can have multiple modules. The modules trigger this workflow, when a sighting is found for an IoC with a target.
 * Currently the Twitter and Generic module are ready. The RSS feed module is in development. If you have more ideas for modules, please open a GitHub issue or make a GitHub pull request. 
